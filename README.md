@@ -47,6 +47,12 @@ You can also connect using telnet:
 telnet localhost 8080
 ```
 
+i also use nc command to connect to the server:
+
+```bash
+nc localhost 8080
+```
+
 ## Architecture
 
 - **Server**: Handles multiple concurrent connections using goroutines
